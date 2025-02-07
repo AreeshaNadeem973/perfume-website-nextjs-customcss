@@ -42,7 +42,7 @@ const Products = () => {
       name: "Gucci Bloom",
       description: "Floral and elegant aroma",
       price: "$130",
-      image: "/images/perfumes1.jpeg",
+      image: "/images/Perfumes1.jpeg",
     },
   ];
 

@@ -355,13 +355,13 @@
 
 /* contact style */
 .contact-container {
-  background: linear-gradient(135deg, #d0a6f1, #e6c8ff); /* Light purple gradient */
+  background: linear-gradient(135deg, #8e44ad, #d1a3f3); /* Purple gradient background */
 
   padding: 20px;
   height: 100vh; 
   text-align: center;
   display: flex;
-  justify-content: flex-start; 
+  justify-content: center; /* Center the form container */
   align-items: center;
   flex-direction: column;
 }
@@ -370,6 +370,7 @@ h1 {
   text-align: center;
   font-size: 32px;
   margin-bottom: 20px;
+  color: #fff; /* White text for heading */
 }
 
 .contact-form {
@@ -407,18 +408,19 @@ textarea {
 }
 
 .submit-btn {
-  background-color: #9b59b6; /* Lighter purple on hover */
-
+  background-color: #9b59b6; /* Purple button color */
   color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   width: 100%;
   font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .submit-btn:hover {
-  background-color: #f3888c;
+  background-color: #8e44ad; /* Darker purple on hover */
+  transform: scale(1.05); /* Slightly larger on hover */
 }
 
 @media (max-width: 600px) {
@@ -432,6 +434,18 @@ textarea {
     font-size: 18px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer Styles */
